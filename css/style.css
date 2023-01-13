@@ -1,0 +1,238 @@
+body{
+    font-family:'Roboto', sans-serif;
+    color: var(--navyblue-headlines);
+} 
+/* _________прибрати крапки та підкресення______*/
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/*__________________ заховати заголовок_______________*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*  ___________________задати змінну________________________ */
+:root{
+--navyblue-headlines: #2E2F42;
+--title:#FFFFFF;
+--iris:#4D5AE5;
+--layout-paragrph:#434455;
+--paragraph-color-laver:#E7E9FC;
+--cloud:#F4F4FD;
+--portfolio-button:#404BBF;
+}
+/* HEADER */
+.header-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--iris);
+}
+.colortext-logo {
+    color: var(--navyblue-headlines);
+}
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navyblue-headlines);
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--iris);
+}
+/* --------studio-------- */
+.studio-suptitle{
+    color:var(--navyblue-headlines);
+}
+.studio-title{
+color:var(--navyblue-headlines);
+}
+.portfolio-suptitle{
+color: var(--navyblue-headlines);
+}
+.portfolio-title{
+color: var(--navyblue-headlines);
+}
+.header-gmail {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--layout-paragrph);
+}
+.header-gmail:hover,
+.header-gmail:focus{
+    color: var(--iris);
+}
+.header-tell{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--layout-paragrph);
+}
+.header-tell:hover,
+.header-tell:focus{
+    color: var(--iris);
+}
+/* _____________Section 1 - hero */
+.hero {
+background:var(--navyblue-headlines);
+}
+.hero-text {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--title);
+}
+
+
+.hero-button {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color:var(--portfolio-button);
+    color:var(--title);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background:var(--iris);
+
+}
+/*_________________ Section 2 _________________*/
+.work-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--navyblue-headlines);
+}
+.parag {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--layout-paragrph);
+}
+/*_______________ Section 3_______________________ */
+.photo-text {
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navyblue-headlines);
+}
+/* ______________________Section 4 _____________________*/
+.title-our-time {
+    font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navyblue-headlines);
+}
+.resume {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-headlines);
+}
+.paragraph-resume {
+    font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--layout-paragrph);
+}
+/*______________________ footer */
+.footer {
+    background-color:var(--layout-paragrph);
+}
+.header-logo {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--iris);
+    
+}
+.colortext {
+    color: var(--cloud);
+}
+.footer-parag {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--paragraph-color-laver);
+}
+.footer-name {
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    top: 2280px;
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+/*____________________________ portfolio __________________________________*/
+
+.button-list-text {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--portfolio-button);
+    cursor: pointer;
+}
+
+.button-list-text:hover,
+.button-list-text:focus{
+    background-color: var(--iris);
+    color: var(--title);
+}
+
+.photo-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--navyblue-headlines);
+    
+}
+.pragraph-title {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--layout-paragrph);
+
+}
