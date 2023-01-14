@@ -31,6 +31,7 @@ body{
 --paragraph-color-laver:#E7E9FC;
 --cloud:#F4F4FD;
 --portfolio-button:#404BBF;
+--border:#E7E9FC;
 }
 /* HEADER */
 .header-logo {
@@ -102,8 +103,6 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--title);
 }
-
-
 .hero-button {
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
@@ -170,16 +169,6 @@ color: var(--layout-paragrph);
 .footer {
     background-color:var(--layout-paragrph);
 }
-.header-logo {
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.3;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--iris);
-    
-}
 .colortext {
     color: var(--cloud);
 }
@@ -204,35 +193,31 @@ text-transform: uppercase;
 color: var(--iris);
 }
 /*____________________________ portfolio __________________________________*/
-
 .button-list-text {
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:var(--portfolio-button);
+    background-color:var(--border);
+    color:var(--iris);
     cursor: pointer;
 }
-
 .button-list-text:hover,
 .button-list-text:focus{
     background-color: var(--iris);
-    color: var(--title);
+    color: var(--cloud);
 }
-
 .photo-title {
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--navyblue-headlines);
-    
 }
 .pragraph-title {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--layout-paragrph);
-
 }
