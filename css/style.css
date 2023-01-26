@@ -279,20 +279,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--paragraph-color-laver);
-padding-top: 16px;
+margin-top: 16px;
 }
 /*____________________________ portfolio __________________________________*/
 .button-list{
     display: flex;
     justify-content: center;
     gap: var(--set);
-}
-.button{
-background:var(--cloud);
-border: 1px solid var(--border);
-border-radius: 4px;
-flex: none;
-flex-grow: 0;
 }
 .button-list-text {
     padding: 12px 24px;
@@ -304,25 +297,27 @@ flex-grow: 0;
     background-color:var(--border);
     color:var(--iris);
     cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    border: none;
+    background:var(--cloud);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    flex: none;
+    flex-grow: 0;
 }
 .button-list-text:hover,
 .button-list-text:focus{
     background-color: var(--iris);
     color: var(--cloud);
+    box-shadow: 0px 2px 0px rgb(188, 186, 185);
 }
 .gallery{
-    flex-basis: calc(100% / 3 - var(--set));
+    flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .section-gallery{
     display: flex;
     gap: var(--set);
-
 }
 .section-gallery{
-    padding-top: 72px;
+    margin-top: 72px;
     padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -330,14 +325,15 @@ flex-grow: 0;
     column-gap: 24px;
 }
 .title-port{
+    padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
     background:var(--title);
     border: 1px solid var(--border);
+    border-top: none;
 }
 .photo-title {
-    margin-left: 16px;
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -345,7 +341,6 @@ color:var(--navyblue-headlines);
 margin-bottom: 8px;
 }
 .pragraph-title {
-margin-left: 16px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
